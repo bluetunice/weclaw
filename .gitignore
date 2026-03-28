@@ -1,0 +1,45 @@
+# 依赖目录 - 必须忽略，体积大且可重新生成
+/node_modules
+*/node_modules
+
+# 构建输出目录 - 不同工具可能生成不同名称的构建文件夹
+/build
+/dist
+/out
+*/build/
+*/dist
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 环境变量文件 - 包含敏感信息，绝对不要提交
+.env
+.env.local
+.env.*.local
+
+# 编辑器配置
+.vscode/
+.idea/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 测试覆盖率报告
+/coverage
+
+# 打包工具缓存
+.pnp
+.pnp.js
+
+# 如果你使用 Next.js 作为渲染层（常见于 Electron + Next 模板）
+/renderer/.next/
+/renderer/out/
+
+# 如果你使用 Webpack 且有自定义构建目录
+.webpack/
+renderer-build/
+package-lock.json
+./workbuddy/
