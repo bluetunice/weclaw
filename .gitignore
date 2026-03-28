@@ -42,4 +42,4 @@ Thumbs.db
 .webpack/
 renderer-build/
 package-lock.json
-./workbuddy/
+.workbuddy/

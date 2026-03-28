@@ -11,6 +11,10 @@
 
 ## 功能概览
 
+![fun1](demo/fun1.png)
+![fun2](demo/fun2.png)
+
+
 ### 🤖 Claw Agent（核心）
 
 WeClaw 的核心特性，类 OpenClaw 架构的**自主 AI Agent**。用户只需输入一个自然语言目标，Claw 会自动：
